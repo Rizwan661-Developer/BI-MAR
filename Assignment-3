@@ -108,9 +108,8 @@ function orderMyLogic(val) {
       return "Greater than or equal to 10";
     }
   }
-  
-  // Change this value to test
   console.log(orderMyLogic(4));
+  
 // 13.Chaining If Else Statements
 function testSize(num) {
     if (num < 5) {
@@ -147,6 +146,7 @@ function golfScore(par, strokes) {
   }
 }
 console.log(golfScore(4, 7));
+
 // 15.Selecting from Many Options with Switch Statements
 function caseInSwitch(val) {
     var answer = "";
@@ -168,6 +168,7 @@ function caseInSwitch(val) {
     return answer;  
   }
   console.log(caseInSwitch(2));
+  
 // 16.Adding a Default Option in Switch Statements
 function switchOfStuff(val) {
     var answer = "";
@@ -188,6 +189,7 @@ function switchOfStuff(val) {
       return answer;  
     }
   console.log(switchOfStuff("b"));
+  
 // 17.Multiple Identical Options in Switch Statements
 function sequentialSizes(val) {
     var answer = "";
@@ -212,6 +214,7 @@ function sequentialSizes(val) {
   }
 
   console.log(sequentialSizes(4));
+  
 // 18.Replacing If Else Chains with Switch
 function chainToSwitch(val) {
     var answer = "";
@@ -237,11 +240,13 @@ function chainToSwitch(val) {
     return answer;  
   }
   chainToSwitch("bob");
+  
 // 19. Returning Boolean Values from Functions
 function isLess(a, b) {
     return a < b;
   }
   console.log(isLess(40, 12));
+  
 // 20.Return Early Pattern for Functions
 Setup
 function abTest(a, b) {
